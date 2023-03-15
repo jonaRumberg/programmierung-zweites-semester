@@ -1,4 +1,4 @@
-package aufgabeblatt1.aufgabe3;
+package aufgabenblatt1.aufgabe3;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
