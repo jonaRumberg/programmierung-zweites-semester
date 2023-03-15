@@ -30,5 +30,11 @@ public class Aufgabe1 extends JFrame {
 		btn.addActionListener(bL);
 		
 		add(btn, BorderLayout.NORTH);
+
+		
+		setTitle("Aufgabe1");
+		setSize(250,150);
+		setVisible(true);
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	}
 }

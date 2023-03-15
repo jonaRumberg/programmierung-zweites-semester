@@ -84,14 +84,16 @@ public class Ampel extends JFrame{
 		//build up screen
 		add(leftp);
 		add(rightp);
+
+		
+		setTitle("Ampel");
+		pack();
+		setVisible(true);
+		setDefaultCloseOperation(EXIT_ON_CLOSE);
 	}
 
 	public static void main(String[] args) {
-		Ampel frame = new Ampel();
-		frame.setTitle("Ampel");
-		frame.pack();
-		frame.setVisible(true);
-		frame.setDefaultCloseOperation(EXIT_ON_CLOSE);
+		new Ampel();
 	}
 	
 	

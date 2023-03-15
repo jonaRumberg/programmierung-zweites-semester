@@ -106,15 +106,17 @@ public class Aufgabe4 extends JFrame {
         });
         add(del);
 
+        
+        setTitle("Aufgabe 4");
+        setSize(400, 400);
+        setVisible(true);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
     }
 
     public static void main(String[] args) {
-        Aufgabe4 frame = new Aufgabe4();
+        new Aufgabe4();
 
-        frame.setTitle("Aufgabe 4");
-        frame.setSize(400, 400);
-        frame.setVisible(true);
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
     }
 }

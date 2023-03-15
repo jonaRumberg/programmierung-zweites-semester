@@ -54,15 +54,15 @@ public class Aufgabe2 extends JFrame{
 		add(aktualisierung, BorderLayout.SOUTH);
 		
 
+		setTitle("Zeitangabe");
+		pack();
+		setVisible(true);
+		setDefaultCloseOperation(EXIT_ON_CLOSE);
 	}
 
 
 	public static void main(String[] args) {
-		JFrame frame = new Aufgabe2();
-		frame.setTitle("Zeitangabe");
-		frame.pack();
-		frame.setVisible(true);
-		frame.setDefaultCloseOperation(EXIT_ON_CLOSE);
+		new Aufgabe2();
 
 	}
 	

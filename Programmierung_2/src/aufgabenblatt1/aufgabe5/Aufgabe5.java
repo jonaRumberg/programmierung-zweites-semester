@@ -37,14 +37,16 @@ public class Aufgabe5 extends JFrame{
 		
 		calcAndDispl();
 
+		
+		setTitle("Eurorechner");
+		setVisible(true);
+		pack();
+		setDefaultCloseOperation(EXIT_ON_CLOSE);
+
 	}
 
 	public static void main(String[] args) {
-		Aufgabe5 frame = new Aufgabe5();
-		frame.setTitle("Eurorechner");
-		frame.setVisible(true);
-		frame.pack();
-		frame.setDefaultCloseOperation(EXIT_ON_CLOSE);
+		new Aufgabe5();
 	}
 	
 	public void calcAndDispl() {

@@ -47,15 +47,17 @@ public class Aufgabe11 extends JFrame{
             resultTextField = new JTextField();
             add(resultTextField);
 
+            
+            setTitle("Aufgabe 11");
+            setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+            setSize(400, 300);
+            setLocationRelativeTo(null);
+            setVisible(true);
+
         }
     
         public static void main(String[] args) {
-            Aufgabe11 frame = new Aufgabe11();
-            frame.setTitle("Aufgabe 11");
-            frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-            frame.setSize(400, 300);
-            frame.setLocationRelativeTo(null);
-            frame.setVisible(true);
+            new Aufgabe11();
         }
 
         class ExecuteListener implements ActionListener {
