@@ -30,7 +30,6 @@ public class ColorRunButton extends JButton implements Runnable {
 	}
 
 	public void run() {
-		String text;
 		while (running) {
 // Berechne Zufalls-Ziffer oder Zufalls-Buchstabe
 // und setze das Zeichen als Beschriftung des Buttons
